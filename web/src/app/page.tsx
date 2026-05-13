@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { getStepsByPhase } from '@/lib/steps'
 import { PHASES } from '@/lib/constants'
 import { H1, H2, Lead, Muted } from '@/components/ui/typography'
@@ -14,7 +15,10 @@ export default function Home() {
   return (
     <div className="container py-12">
       {/* Hero Section */}
-      <section className="flex flex-col items-center text-center my-32">
+      <section className="flex flex-col items-center text-center my-12">
+        <div className="mb-8">
+          <img src="/icon.png" alt="OpenClaw Mascot" className="w-32 h-32 mx-auto" />
+        </div>
         <H1 className="mb-4">Build Your Own OpenClaw</H1>
         <Lead className="max-w-2xl mb-8">
           Learn to build you own OpenClaw through 18 progressive steps.
