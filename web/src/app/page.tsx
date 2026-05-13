@@ -19,7 +19,7 @@ export default function Home() {
         <div className="mb-8">
           <img src="/icon.png" alt="OpenClaw Mascot" className="w-32 h-32 mx-auto" />
         </div>
-        <H1 className="mb-4">Build Your Own OpenClaw</H1>
+        <H1 className="mb-4 tracking-wider">Build Your Own OpenClaw</H1>
         <Lead className="max-w-2xl mb-8">
           Learn to build you own OpenClaw through 18 progressive steps.
           From a simple chat loop to a fully autonomous multi-agent system.
